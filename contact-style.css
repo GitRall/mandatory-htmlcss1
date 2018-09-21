@@ -26,6 +26,9 @@ main form select{
   color: #7a7776;
   margin-bottom: 10px;
 }
+main form select option{
+  font-size: 1.6rem;
+}
 main form textarea{
   font-size: 1.6rem;
   color: #7a7776;
