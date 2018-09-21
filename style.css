@@ -59,6 +59,7 @@ nav a:hover{
 main h2{
   font-size: 3.4rem;
   color: #ffb83c;
+  margin-bottom: 10px;
 }
 main p{
   font-size: 1.6rem;
@@ -68,7 +69,7 @@ main p{
   color: #7a7776;
 }
 main .main-container{
-  width: 25%;
+  width: 300px;
 }
 /*MAIN STOP*/
 
@@ -90,7 +91,7 @@ footer p{
 footer .social-div{
   display: flex;
   justify-content: space-between;
-  width: 12%;
+  width: 180px;
   margin-top: 10px;
 }
 footer .social-div .social-icon{
@@ -111,3 +112,20 @@ footer .social-div .social-icon:hover{
   }
 }
 /*FOOTER STOP*/
+/*MEDIA QUERY*/
+@media (max-width: 800px){
+  nav li{
+    width: 100px;
+  }
+}
+@media (max-width: 550px){
+  nav li{
+    width: 60px;
+  }
+  nav li a{
+    font-size: 1.4rem;
+  }
+  header h1{
+    font-size: 4.6rem;
+  }
+}

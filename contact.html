@@ -5,11 +5,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title></title>
+    <link rel="stylesheet" href="contact-style.css">
+    <title>Rasmus Olsson</title>
   </head>
   <body>
     <header>
-      <h1>TITEL</h1>
+      <h1>Rasmus Olsson</h1>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -21,7 +22,25 @@
       </nav>
     </header>
     <main>
-
+      <div class="align-start">
+        <h2>Contact</h2>
+      </div>
+      <form action="index.html" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="firstname lastname" required>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="example@email.com" required>
+        <label for="select">Subject:</label>
+        <select name="select" required>
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>Javascript</option>
+          <option>Other</option>
+        </select>
+        <label for="comment">Comment:</label>
+        <textarea name="comment" rows="5" cols="40" placeholder="comment" required></textarea>
+        <button type="submit" name="button">Submit</button>
+      </form>
     </main>
     <footer>
       <p>Contact:</p>
